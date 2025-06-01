@@ -1,0 +1,14 @@
+cx_Oracle
+et_xmlfile
+numpy
+openpyxl
+pandas
+python-dateutil
+pytz
+schedule
+setuptools
+six
+tzdata
+XlsxWriter
+matplotlib
+seaborn
