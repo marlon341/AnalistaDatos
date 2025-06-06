@@ -14,3 +14,67 @@
 2025-06-05 17:19:41 [ERROR] Error en el proceso principal: DPI-1047: Cannot locate a 64-bit Oracle Client library: "failed to get message for Windows Error 126". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
 2025-06-05 17:20:16 [ERROR] Error al conectar a Oracle: DPI-1047: Cannot locate a 64-bit Oracle Client library: "failed to get message for Windows Error 126". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
 2025-06-05 17:20:16 [ERROR] Error en el proceso principal: DPI-1047: Cannot locate a 64-bit Oracle Client library: "failed to get message for Windows Error 126". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-06-06 09:25:57 [ERROR] Error al conectar a Oracle: DPI-1047: Cannot locate a 64-bit Oracle Client library: "failed to get message for Windows Error 126". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-06-06 09:25:57 [ERROR] Error en el proceso principal: DPI-1047: Cannot locate a 64-bit Oracle Client library: "failed to get message for Windows Error 126". See https://cx-oracle.readthedocs.io/en/latest/user_guide/installation.html for help
+2025-06-06 09:39:33 [ERROR] Error al conectar a Oracle: DPY-6005: cannot connect to database (CONNECTION_ID=bF55dd2L/EYI80mtugcCpw==).
+DPY-3010: connections to this database server version are not supported by python-oracledb in thin mode
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpy-3010
+2025-06-06 09:39:33 [ERROR] Error en el proceso principal: DPY-6005: cannot connect to database (CONNECTION_ID=bF55dd2L/EYI80mtugcCpw==).
+DPY-3010: connections to this database server version are not supported by python-oracledb in thin mode
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpy-3010
+2025-06-06 10:25:57 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-06 10:25:57 [ERROR] Error al extraer datos: Execution failed on sql '
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, 
+                   p.nombre producto, c.nombre cliente, t.nombre tienda
+            FROM ventas v
+            JOIN productos p ON v.id_producto = p.id_producto
+            JOIN clientes c ON v.id_cliente = c.id_cliente
+            JOIN tiendas t ON v.id_tienda = t.id_tienda
+        ': ORA-00942: table or view does not exist
+2025-06-06 10:25:57 [ERROR] Error en el proceso principal: Execution failed on sql '
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, 
+                   p.nombre producto, c.nombre cliente, t.nombre tienda
+            FROM ventas v
+            JOIN productos p ON v.id_producto = p.id_producto
+            JOIN clientes c ON v.id_cliente = c.id_cliente
+            JOIN tiendas t ON v.id_tienda = t.id_tienda
+        ': ORA-00942: table or view does not exist
+2025-06-06 10:25:57 [INFO] Conexión cerrada
+2025-06-06 10:27:09 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-06 10:27:09 [ERROR] Error al extraer datos: Execution failed on sql '
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, p.nombre producto, c.nombre cliente, t.nombre tienda
+            FROM ventas v
+            JOIN productos p ON v.id_producto = p.id_producto
+            JOIN clientes c ON v.id_cliente = c.id_cliente
+            JOIN tiendas t ON v.id_tienda = t.id_tienda
+        ': ORA-00942: table or view does not exist
+2025-06-06 10:27:09 [ERROR] Error en el proceso principal: Execution failed on sql '
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, p.nombre producto, c.nombre cliente, t.nombre tienda
+            FROM ventas v
+            JOIN productos p ON v.id_producto = p.id_producto
+            JOIN clientes c ON v.id_cliente = c.id_cliente
+            JOIN tiendas t ON v.id_tienda = t.id_tienda
+        ': ORA-00942: table or view does not exist
+2025-06-06 10:27:09 [INFO] Conexión cerrada
+2025-06-06 10:27:50 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-06 10:27:50 [ERROR] Error al extraer datos: Execution failed on sql '
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, p.nombre producto, c.nombre cliente, t.nombre tienda
+            FROM ventas v
+            JOIN productos p ON v.id_producto = p.id_producto
+            JOIN clientes c ON v.id_cliente = c.id_cliente
+            JOIN tiendas t ON v.id_tienda = t.id_tienda
+        ': ORA-00942: table or view does not exist
+2025-06-06 10:27:50 [ERROR] Error en el proceso principal: Execution failed on sql '
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, p.nombre producto, c.nombre cliente, t.nombre tienda
+            FROM ventas v
+            JOIN productos p ON v.id_producto = p.id_producto
+            JOIN clientes c ON v.id_cliente = c.id_cliente
+            JOIN tiendas t ON v.id_tienda = t.id_tienda
+        ': ORA-00942: table or view does not exist
+2025-06-06 10:27:50 [INFO] Conexión cerrada
+2025-06-06 10:30:13 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-06 10:30:13 [INFO] Datos extraídos correctamente
+2025-06-06 10:30:13 [INFO] Conexión cerrada
+2025-06-06 10:51:22 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-06 10:51:22 [INFO] Datos extraídos correctamente
+2025-06-06 10:51:22 [INFO] Conexión cerrada
