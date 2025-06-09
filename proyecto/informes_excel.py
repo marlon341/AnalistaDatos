@@ -55,5 +55,5 @@ if __name__ == "__main__":
         logging.error(f"Error en el proceso principal: {e}")
     finally:
         if 'conn' in locals():
-            conn.close()
+            conn.close()#CERRAR CONEXION
             logging.info("Conexión cerrada")
