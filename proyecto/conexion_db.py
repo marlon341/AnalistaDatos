@@ -1,9 +1,7 @@
-import os
-os.environ["PATH"] = r"C:\oracle\instantclient_19_26" + ";" + os.environ["PATH"]
-
-import cx_Oracle
+import oracledb    # en lugar de cx_Oracle
 import pandas as pd
 import logging
+import os
 
 # Configurar logging
 logging.basicConfig(
@@ -21,34 +19,51 @@ logging.getLogger().addHandler(console)
 
 def conectar_oracle():
     try:
-        # Datos de conexión (actualiza con tus credenciales)
-        dsn = cx_Oracle.makedsn(
-            host="localhost",
-            port=1522,
-            sid="xe"  # o service_name según tu configuración
-        )
-        conn = cx_Oracle.connect(
-            user="system",
-            password="oracle",
+        # ------------------------------------------------------------
+        # 1) Inicializar el cliente Oracle en modo THICK (librerías DLL)
+        # ------------------------------------------------------------
+        # Aquí le indicamos la carpeta donde están las DLLs del Instant Client:
+        instant_client_dir = r"C:\oracle\instantclient_19_26"
+        os.environ["PATH"] = instant_client_dir + ";" + os.environ["PATH"]
+        oracledb.init_oracle_client(lib_dir=instant_client_dir)
+        # ------------------------------------------------------------
+
+        # ------------------------------------------------------------
+        # 2) Construir el dsn para la XE que corre en Docker en port 1522
+        # ------------------------------------------------------------
+        #   - host: localhost
+        #   - port: 1522   (mapeo Docker: 1522 en Windows → 1521 en contenedor)
+        #   - service_name: "XE"  (SID del contenedor XE 11g) XEPDB1
+        dsn = oracledb.makedsn("localhost", 1521, service_name="XEPDB1")
+        # ------------------------------------------------------------
+
+        # ------------------------------------------------------------
+        # 3) Conectar con credenciales de Docker XE
+        #    Usuario y contraseña que definimos por defecto en el contenedor:
+        #      user = "system"
+        #      password = "oracle"
+        # ------------------------------------------------------------
+        conn = oracledb.connect(
+            user="MARLON",
+            password="1122",
             dsn=dsn
         )
-        logging.info("Conexión a Oracle exitosa")
+        logging.info("Conexión a Oracle exitosa (modo THICK)")
         return conn
-    except cx_Oracle.DatabaseError as e:
+
+    except oracledb.DatabaseError as e:
         logging.error(f"Error al conectar a Oracle: {e}")
         raise
 
 def extraer_datos(conn):
     try:
-        # Consulta SQL para extraer datos
         query = """
-            SELECT v.id_venta, v.fecha_venta, v.cantidad, p.nombre producto, c.nombre cliente, t.nombre tienda
+            SELECT v.id_venta, v.fecha_venta, v.cantidad, p.nombre producto, p.precio, c.nombre cliente, t.nombre tienda
             FROM ventas v
             JOIN productos p ON v.id_producto = p.id_producto
             JOIN clientes c ON v.id_cliente = c.id_cliente
             JOIN tiendas t ON v.id_tienda = t.id_tienda
         """
-        # Leer los datos en un DataFrame
         df = pd.read_sql(query, conn)
         logging.info("Datos extraídos correctamente")
         return df
@@ -58,16 +73,12 @@ def extraer_datos(conn):
 
 if __name__ == "__main__":
     try:
-        # Conectar a Oracle
         conn = conectar_oracle()
-        # Extraer datos
         df = extraer_datos(conn)
-        # Mostrar los primeros 5 registros
-        print(df.head())
+        print(df) #muestra solo los los 5 primeros registros de la consulta para no extenderse
     except Exception as e:
         logging.error(f"Error en el proceso principal: {e}")
     finally:
-        # Cerrar la conexión
         if 'conn' in locals():
             conn.close()
             logging.info("Conexión cerrada")

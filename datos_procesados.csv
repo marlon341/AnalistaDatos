@@ -1,0 +1,51 @@
+ID_VENTA,FECHA_VENTA,CANTIDAD,PRODUCTO,PRECIO,CLIENTE,TIENDA,TOTAL_VENTA
+1,2025-01-01,2,Camisa,50000,Cliente 1,Tienda Centro,100000
+2,2025-01-02,1,Pantalón,80000,Cliente 2,Tienda Norte,80000
+3,2025-01-03,1,Camiseta,40000,Cliente 3,Tienda Sur,40000
+4,2025-01-04,3,Zapatos,150000,Cliente 4,Tienda Oriente,450000
+5,2025-01-05,2,Bolso,120000,Cliente 5,Tienda Occidente,240000
+6,2025-01-06,1,Reloj,80000,Cliente 6,Tienda Centro Comercial,80000
+7,2025-01-07,4,Gafas,90000,Cliente 7,Tienda Universidad,360000
+8,2025-01-08,2,Cartera,70000,Cliente 8,Tienda Aeropuerto,140000
+9,2025-01-09,1,Buzo,60000,Cliente 9,Tienda Plaza,60000
+10,2025-01-10,3,Short,30000,Cliente 10,Tienda Centro Comercial,90000
+11,2025-01-11,2,Calcetines,15000,Cliente 11,Tienda Centro,30000
+12,2025-01-12,1,Pañuelo,10000,Cliente 12,Tienda Norte,10000
+13,2025-01-13,3,Gorro,20000,Cliente 13,Tienda Sur,60000
+14,2025-01-14,2,Bufanda,25000,Cliente 14,Tienda Oriente,50000
+15,2025-01-15,1,Guantes,18000,Cliente 15,Tienda Occidente,18000
+16,2025-01-16,4,Cinturón,35000,Cliente 16,Tienda Centro Comercial,140000
+17,2025-01-17,2,Corbata,40000,Cliente 17,Tienda Universidad,80000
+18,2025-01-18,1,Vestido,80000,Cliente 18,Tienda Aeropuerto,80000
+19,2025-01-19,3,Faldas,50000,Cliente 19,Tienda Plaza,150000
+20,2025-01-20,2,Leggings,40000,Cliente 20,Tienda Centro Comercial,80000
+21,2025-01-21,1,Mochila,90000,Cliente 21,Tienda Centro,90000
+22,2025-01-22,3,Cartera pequeña,15000,Cliente 22,Tienda Norte,45000
+23,2025-01-23,2,Monedero,10000,Cliente 23,Tienda Sur,20000
+24,2025-01-24,1,Llavero,5000,Cliente 24,Tienda Oriente,5000
+25,2025-01-25,4,Telefono móvil,800000,Cliente 25,Tienda Occidente,3200000
+26,2025-01-26,2,Audífonos,150000,Cliente 26,Tienda Centro Comercial,300000
+27,2025-01-27,1,Tablet,600000,Cliente 27,Tienda Universidad,600000
+28,2025-01-28,3,Laptop,1500000,Cliente 28,Tienda Aeropuerto,4500000
+29,2025-01-29,2,Smartwatch,300000,Cliente 29,Tienda Plaza,600000
+30,2025-01-30,1,Cargador,40000,Cliente 30,Tienda Centro Comercial,40000
+31,2025-01-31,3,Altavoz,120000,Cliente 31,Tienda Centro,360000
+32,2025-02-01,2,Cámara,500000,Cliente 32,Tienda Norte,1000000
+33,2025-02-02,1,Tripode,80000,Cliente 33,Tienda Sur,80000
+34,2025-02-03,4,Micrófono,150000,Cliente 34,Tienda Oriente,600000
+35,2025-02-04,2,Audífonos con micrófono,200000,Cliente 35,Tienda Occidente,400000
+36,2025-02-05,1,Teclado,250000,Cliente 36,Tienda Centro Comercial,250000
+37,2025-02-06,3,Mouse,50000,Cliente 37,Tienda Universidad,150000
+38,2025-02-07,2,Monitor,800000,Cliente 38,Tienda Aeropuerto,1600000
+39,2025-02-08,1,Consola de videojuegos,1200000,Cliente 39,Tienda Plaza,1200000
+40,2025-02-09,4,Juego de video,150000,Cliente 40,Tienda Centro Comercial,600000
+41,2025-02-10,2,Headset,180000,Cliente 41,Tienda Centro,360000
+42,2025-02-11,1,Cable HDMI,30000,Cliente 42,Tienda Norte,30000
+43,2025-02-12,3,Fuente de poder,200000,Cliente 43,Tienda Sur,600000
+44,2025-02-13,2,Gabinete,80000,Cliente 44,Tienda Oriente,160000
+45,2025-02-14,1,Ventilador,30000,Cliente 45,Tienda Occidente,30000
+46,2025-02-15,4,Disco duro,350000,Cliente 46,Tienda Centro Comercial,1400000
+47,2025-02-16,2,Tarjeta gráfica,800000,Cliente 47,Tienda Universidad,1600000
+48,2025-02-17,1,Procesador,1200000,Cliente 48,Tienda Aeropuerto,1200000
+49,2025-02-18,3,Placa madre,900000,Cliente 49,Tienda Plaza,2700000
+50,2025-02-19,2,Memoria RAM,300000,Cliente 50,Tienda Centro Comercial,600000

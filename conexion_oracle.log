@@ -78,3 +78,398 @@ Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshootin
 2025-06-06 10:51:22 [INFO] Conexión a Oracle exitosa (modo THICK)
 2025-06-06 10:51:22 [INFO] Datos extraídos correctamente
 2025-06-06 10:51:22 [INFO] Conexión cerrada
+2025-06-08 11:46:53 [ERROR] Error al conectar a Oracle: DPI-1047: Cannot locate a 64-bit Oracle Client library: "No se puede encontrar el módulo especificado". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+2025-06-08 11:46:53 [ERROR] Error en el proceso principal: DPI-1047: Cannot locate a 64-bit Oracle Client library: "No se puede encontrar el módulo especificado". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+2025-06-08 11:51:51 [ERROR] Error al conectar a Oracle: DPI-1047: Cannot locate a 64-bit Oracle Client library: "No se puede encontrar el módulo especificado". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+2025-06-08 11:51:51 [ERROR] Error en el proceso principal: DPI-1047: Cannot locate a 64-bit Oracle Client library: "No se puede encontrar el módulo especificado". See https://python-oracledb.readthedocs.io/en/latest/user_guide/initialization.html for help
+Help: https://python-oracledb.readthedocs.io/en/latest/user_guide/troubleshooting.html#dpi-1047
+2025-06-08 11:56:08 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 11:56:08 [INFO] Datos extraídos correctamente
+2025-06-08 11:56:08 [INFO] Conexión cerrada
+2025-06-08 12:54:02 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 12:54:02 [INFO] Datos extraídos correctamente
+2025-06-08 12:54:02 [INFO] Conexión cerrada
+2025-06-08 13:25:28 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:25:28 [INFO] Datos extraídos correctamente
+2025-06-08 13:25:28 [INFO] Verificando valores nulos...
+2025-06-08 13:25:28 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:25:28 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:25:28 [INFO] Eliminando duplicados...
+2025-06-08 13:25:28 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:25:28 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:25:28 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:25:28 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:25:28 [INFO] Conexión cerrada
+2025-06-08 13:27:44 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:27:44 [INFO] Datos extraídos correctamente
+2025-06-08 13:27:44 [INFO] Verificando valores nulos...
+2025-06-08 13:27:44 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:27:44 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:27:44 [INFO] Eliminando duplicados...
+2025-06-08 13:27:44 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:27:44 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:27:44 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:27:44 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:27:44 [INFO] Conexión cerrada
+2025-06-08 13:29:21 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:29:21 [INFO] Datos extraídos correctamente
+2025-06-08 13:29:21 [INFO] Verificando valores nulos...
+2025-06-08 13:29:21 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:29:21 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:29:21 [INFO] Eliminando duplicados...
+2025-06-08 13:29:21 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:29:21 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:29:21 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:29:21 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:29:21 [INFO] Conexión cerrada
+2025-06-08 13:30:28 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:30:28 [INFO] Datos extraídos correctamente
+2025-06-08 13:30:28 [INFO] Verificando valores nulos...
+2025-06-08 13:30:28 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:30:28 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:30:28 [INFO] Eliminando duplicados...
+2025-06-08 13:30:28 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:30:28 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:30:28 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:30:28 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:30:28 [INFO] Conexión cerrada
+2025-06-08 13:31:21 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:31:21 [INFO] Datos extraídos correctamente
+2025-06-08 13:31:21 [INFO] Verificando valores nulos...
+2025-06-08 13:31:21 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:31:21 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:31:21 [INFO] Eliminando duplicados...
+2025-06-08 13:31:21 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:31:21 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:31:21 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:31:21 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:31:21 [INFO] Conexión cerrada
+2025-06-08 13:31:52 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:31:52 [INFO] Datos extraídos correctamente
+2025-06-08 13:31:52 [INFO] Verificando valores nulos...
+2025-06-08 13:31:52 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:31:52 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:31:52 [INFO] Eliminando duplicados...
+2025-06-08 13:31:52 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:31:52 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:31:52 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:31:52 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:31:52 [INFO] Conexión cerrada
+2025-06-08 13:32:23 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:32:23 [INFO] Datos extraídos correctamente
+2025-06-08 13:32:23 [INFO] Verificando valores nulos...
+2025-06-08 13:32:23 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:32:23 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:32:23 [INFO] Eliminando duplicados...
+2025-06-08 13:32:23 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:32:23 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:32:23 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:32:23 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:32:23 [INFO] Conexión cerrada
+2025-06-08 13:38:25 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:38:25 [INFO] Datos extraídos correctamente
+2025-06-08 13:38:25 [INFO] Conexión cerrada
+2025-06-08 13:38:44 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:38:44 [INFO] Datos extraídos correctamente
+2025-06-08 13:38:44 [INFO] Verificando valores nulos...
+2025-06-08 13:38:44 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:38:44 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:38:44 [INFO] Eliminando duplicados...
+2025-06-08 13:38:44 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:38:44 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:38:44 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:38:44 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:38:44 [INFO] Conexión cerrada
+2025-06-08 13:39:06 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:39:06 [INFO] Datos extraídos correctamente
+2025-06-08 13:39:06 [INFO] Verificando valores nulos...
+2025-06-08 13:39:06 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:39:06 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:39:06 [INFO] Eliminando duplicados...
+2025-06-08 13:39:06 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:39:06 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:39:06 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:39:06 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:39:06 [INFO] Conexión cerrada
+2025-06-08 13:39:42 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:39:42 [INFO] Datos extraídos correctamente
+2025-06-08 13:39:42 [INFO] Verificando valores nulos...
+2025-06-08 13:39:42 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:39:42 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:39:42 [INFO] Eliminando duplicados...
+2025-06-08 13:39:42 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:39:42 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:39:42 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:39:42 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:39:42 [INFO] Conexión cerrada
+2025-06-08 13:42:00 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:42:00 [INFO] Datos extraídos correctamente
+2025-06-08 13:42:00 [INFO] Verificando valores nulos...
+2025-06-08 13:42:00 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:42:00 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:42:00 [INFO] Eliminando duplicados...
+2025-06-08 13:42:00 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:42:00 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:42:00 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:42:00 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:42:00 [INFO] Conexión cerrada
+2025-06-08 13:44:16 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:44:16 [INFO] Datos extraídos correctamente
+2025-06-08 13:44:16 [INFO] Verificando valores nulos...
+2025-06-08 13:44:16 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:44:16 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:44:16 [INFO] Eliminando duplicados...
+2025-06-08 13:44:16 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:44:16 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:44:16 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:44:16 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:44:16 [INFO] Conexión cerrada
+2025-06-08 13:44:49 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:44:49 [INFO] Datos extraídos correctamente
+2025-06-08 13:44:49 [INFO] Verificando valores nulos...
+2025-06-08 13:44:49 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:44:49 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:44:49 [INFO] Eliminando duplicados...
+2025-06-08 13:44:49 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:44:49 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:44:49 [ERROR] Error al procesar datos: 'cantidad'
+2025-06-08 13:44:49 [ERROR] Error en el proceso principal: 'cantidad'
+2025-06-08 13:44:49 [INFO] Conexión cerrada
+2025-06-08 13:52:38 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:52:38 [INFO] Datos extraídos correctamente
+2025-06-08 13:52:38 [INFO] Verificando valores nulos...
+2025-06-08 13:52:38 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:52:38 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:52:38 [INFO] Eliminando duplicados...
+2025-06-08 13:52:38 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:52:38 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:52:38 [INFO] Agrupando datos por producto y cliente...
+2025-06-08 13:52:38 [ERROR] Error al procesar datos: 'producto'
+2025-06-08 13:52:38 [ERROR] Error en el proceso principal: 'producto'
+2025-06-08 13:52:38 [INFO] Conexión cerrada
+2025-06-08 13:53:10 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 13:53:10 [INFO] Datos extraídos correctamente
+2025-06-08 13:53:10 [INFO] Verificando valores nulos...
+2025-06-08 13:53:10 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 13:53:10 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 13:53:10 [INFO] Eliminando duplicados...
+2025-06-08 13:53:10 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 13:53:10 [INFO] Calculando el total de ventas por producto...
+2025-06-08 13:53:10 [INFO] Agrupando datos por producto y cliente...
+2025-06-08 13:53:10 [INFO] Procesamiento de datos completado.
+2025-06-08 13:53:10 [INFO] DataFrame procesado guardado en 'datos_procesados.csv'
+2025-06-08 13:53:10 [INFO] Conexión cerrada
+2025-06-08 18:22:14 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 18:22:14 [INFO] Datos extraídos correctamente
+2025-06-08 18:22:14 [INFO] Verificando valores nulos...
+2025-06-08 18:22:14 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 18:22:14 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 18:22:14 [INFO] Eliminando duplicados...
+2025-06-08 18:22:14 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 18:22:14 [INFO] Calculando el total de ventas por producto...
+2025-06-08 18:22:14 [INFO] Agrupando datos por producto y cliente...
+2025-06-08 18:22:14 [INFO] Procesamiento de datos completado.
+2025-06-08 18:22:14 [ERROR] Error al procesar datos: [Errno 13] Permission denied: 'datos_procesados.csv'
+2025-06-08 18:22:14 [ERROR] Error en el proceso principal: [Errno 13] Permission denied: 'datos_procesados.csv'
+2025-06-08 18:22:14 [INFO] Conexión cerrada
+2025-06-08 18:22:42 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 18:22:42 [INFO] Datos extraídos correctamente
+2025-06-08 18:22:42 [INFO] Verificando valores nulos...
+2025-06-08 18:22:42 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 18:22:42 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 18:22:42 [INFO] Eliminando duplicados...
+2025-06-08 18:22:42 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 18:22:42 [INFO] Calculando el total de ventas por producto...
+2025-06-08 18:22:42 [INFO] Agrupando datos por producto y cliente...
+2025-06-08 18:22:42 [INFO] Procesamiento de datos completado.
+2025-06-08 18:22:42 [INFO] DataFrame procesado guardado en 'datos_procesados.csv'
+2025-06-08 18:22:42 [INFO] Conexión cerrada
+2025-06-08 19:00:35 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 19:00:35 [INFO] Datos extraídos correctamente
+2025-06-08 19:00:35 [INFO] Verificando valores nulos...
+2025-06-08 19:00:35 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 19:00:35 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 19:00:35 [INFO] Eliminando duplicados...
+2025-06-08 19:00:35 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 19:00:35 [INFO] Calculando el total de ventas por producto...
+2025-06-08 19:00:35 [INFO] Agrupando datos por producto y cliente...
+2025-06-08 19:00:35 [INFO] Procesamiento de datos completado.
+2025-06-08 19:00:35 [INFO] DataFrame procesado guardado en 'datos_procesados.csv'
+2025-06-08 19:00:35 [INFO] Conexión cerrada
+2025-06-08 22:11:56 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 22:11:56 [INFO] Datos extraídos correctamente
+2025-06-08 22:11:56 [INFO] Conexión cerrada
+2025-06-08 22:12:27 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 22:12:27 [INFO] Datos extraídos correctamente
+2025-06-08 22:12:27 [INFO] Conexión cerrada
+2025-06-08 22:14:02 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 22:14:02 [INFO] Datos extraídos correctamente
+2025-06-08 22:14:02 [INFO] Conexión cerrada
+2025-06-08 22:35:28 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 22:35:28 [INFO] Datos extraídos correctamente
+2025-06-08 22:35:28 [ERROR] Error en el proceso principal: name 'procesar_datos' is not defined
+2025-06-08 22:35:28 [INFO] Conexión cerrada
+2025-06-08 22:38:02 [INFO] Conexión a Oracle exitosa (modo THICK)
+2025-06-08 22:38:02 [INFO] Datos extraídos correctamente
+2025-06-08 22:38:02 [INFO] Verificando valores nulos...
+2025-06-08 22:38:02 [INFO] Valores nulos:
+ID_VENTA       0
+FECHA_VENTA    0
+CANTIDAD       0
+PRODUCTO       0
+PRECIO         0
+CLIENTE        0
+TIENDA         0
+dtype: int64
+2025-06-08 22:38:02 [INFO] Filas con valores nulos eliminadas.
+2025-06-08 22:38:02 [INFO] Eliminando duplicados...
+2025-06-08 22:38:02 [INFO] Duplicados eliminados. Total filas: 50
+2025-06-08 22:38:02 [INFO] Calculando el total de ventas por producto...
+2025-06-08 22:38:02 [INFO] Agrupando datos por producto y cliente...
+2025-06-08 22:38:02 [INFO] Procesamiento de datos completado.
+2025-06-08 22:38:02 [INFO] DataFrame procesado guardado en 'datos_procesados.csv'
+2025-06-08 22:38:02 [INFO] Datos procesados guardados en la hoja 'Datos'
+2025-06-08 22:38:02 [INFO] Ventas por producto guardadas en la hoja 'Ventas por Producto'
+2025-06-08 22:38:02 [INFO] Ventas por cliente guardadas en la hoja 'Ventas por Cliente'
+2025-06-08 22:38:03 [INFO] Informe generado con éxito: 'informe_ventas.xlsx'
+2025-06-08 22:38:03 [INFO] Conexión cerrada

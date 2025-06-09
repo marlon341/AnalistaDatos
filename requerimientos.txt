@@ -12,3 +12,4 @@ tzdata
 XlsxWriter
 matplotlib
 seaborn
+oracledb
